@@ -1,0 +1,18 @@
+conairfile.txt  Syntax highlighting for Conairfiles
+
+Author: Timo Derstappen <http://teemow.com>
+License: BSD
+
+INSTALLATION                                                     *installation*
+
+Drop it on your Pathogen path and you're all set.
+
+FEATURES                                                             *features*
+
+The syntax highlighting includes:
+
+* The directives (e.g. FROM)
+* Strings
+* Comments
+
+ vim:tw=78:et:ft=help:norl:
