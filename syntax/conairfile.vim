@@ -11,7 +11,7 @@ let b:current_syntax = "conairfile"
 
 syntax case ignore
 
-syntax match conairfileKeyword /\v^\s*(ONBUILD\s+)?(ADD|CMD|ENTRYPOINT|ENV|ENABLE|EXPOSE|FROM|MAINTAINER|PKG|RUN|USER|VOLUME|WORKDIR|COPY)\s/
+syntax match conairfileKeyword /\v^\s*(ONBUILD\s+)?(ADD|CMD|ENTRYPOINT|ENV|ENABLE|EXPOSE|FROM|MAINTAINER|PKG|RUN|RUN_NOCACHE|USER|VOLUME|WORKDIR|COPY|SNAPSHOT)\s/
 highlight link conairfileKeyword Keyword
 
 syntax region conairfileString start=/\v"/ skip=/\v\\./ end=/\v"/
